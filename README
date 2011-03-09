@@ -1,0 +1,23 @@
+Enumerates all possible sequences of moves of length n of a knight in chess on a chess 
+board shaped like a phone key pad. See below:
+
+1 2 3
+4 5 6
+7 8 9
+  0
+
+
+A knight can move in L shape. For instance, starting on 1, it can go to 8 or 6.
+
+In general there are always 2 positions a knight can move to from any position other than 5.
+5 can never be visited or a knight starting at 5 cannot move to any other position.
+
+As a result, there are 2^n possible sequences for a knight starting at any position other than 5.
+
+
+Here is an example showing how to run this code:
+ruby chess.rb 1 5
+
+the first argument is the starting position. The second argument is the number of times the knight moves.
+
+
